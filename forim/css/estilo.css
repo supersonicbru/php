@@ -1,0 +1,70 @@
+/*noinspection ALL*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.fields{
+    padding-left: 7px;
+}
+
+/*noinspection ALL*/
+body {
+    background-repeat: no-repeat;
+    background-image: url("../img/background_index.jpg");
+    background-position: 0% 50%;
+    color: white;
+    font-family: Arial;
+}
+
+input {
+    display: block;
+    height: 40px;
+    width: 400px;
+    margin: 20px;
+    border-radius: 30px;
+    border: 1px solid black ;
+    font-size: 15pt;
+    background-color: rgba(255,255,255,0.01);
+    color: #000000;
+    outline: none;
+}
+
+/*noinspection ALL*/
+div#corpo-form{
+    width: 420px;
+    margin: 50px auto 0px auto;
+}
+
+/*noinspection ALL*/
+div#corpo-form-cad{
+    width: 420px;
+    margin: 20px auto 0px auto;
+}
+
+div#corpo-form h1{
+    text-align: center;
+}
+div#corpo-form-cad h1{
+    text-align: center;
+}
+a {
+    color: white;
+    font-size: 14pt;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 20px;
+}
+a:hover{
+    text-decoration: underline;
+}
+input[type=submit]{
+    background-color: rgba(30,144,255,0.21);
+    font-weight: bold;
+    cursor: pointer;
+}
+::-webkit-input-placeholder {color: black; font-weight: bold;}
+:-moz-placeholder           {color: black; font-weight: bold;}
+::-moz-placeholder          {color: black; font-weight: bold;}
+:-ms-input-placeholder      {color: black; font-weight: bold;}
